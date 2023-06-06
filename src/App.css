@@ -1,0 +1,130 @@
+.parent-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.sensor-color, .combination-color{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.combination-color{
+    margin-top: 30px;
+}
+
+.recommend-color-list{
+    display: flex;
+}
+
+#sensor-get-color{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#recommend-color{
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.GRAY{
+    background-color: gray;
+    color: white;
+}
+
+.BLACK{
+    background-color: black;
+    color: white;
+}
+
+.WHITE{
+    background-color: white;
+    color: black;
+}
+
+.NAVY{
+    background-color: #243b5b;
+    color: white;;
+}
+
+.KHAKI{
+    background-color: #6d6a0a;
+  color: white;
+}
+
+.GREEN{
+    background-color: #228b22;
+    color: white;
+}
+
+.BLUE{
+    background-color: #274fb7;
+    color: white;
+}
+
+.SKYBLUE{
+    background-color: #9bb6f8;
+    color: white;
+}
+
+.BROWN{
+    background-color: #483420;
+    color: white;
+}
+
+.BEIGE{
+    background-color: #f3cf98;
+    color: white;
+}
+
+.ORANGE{
+    background-color: rgb(248, 172, 32);
+    color: white;
+}
+
+.RED{
+    background-color: rgb(235, 53, 53);
+    color: white;
+}
+
+.PURPLE{
+    background-color: rgb(150, 2, 150);
+    color: white;
+}
+
+.PINK{
+    background-color: pink;
+    color: white;
+}
+
+.YELLOW{
+    background-color: rgba(236, 236, 3, 0.767);
+    color: black;
+}
+
+.BURGUNDY{
+    background-color: #5e0a0a;
+    color: white;
+}
+
+.CREAM {
+    background-color: #fffdd0;
+    color: black;
+  }
