@@ -136,7 +136,7 @@ const App = () => {
                     style={{
                       color: "rgb(235, 53, 53)",
                       marginTop: "7px",
-                      fontSize: "1.1rem",
+                      fontSize: "1rem",
                       fontWeight: "bold",
                     }}
                   >
