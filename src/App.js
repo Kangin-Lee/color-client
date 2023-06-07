@@ -77,6 +77,13 @@ const App = () => {
   useEffect(() => {
     // fetchBackendData();
     fetchDominantColors();
+        const interval = setInterval(() => {
+      fetchDominantColors(); // 일정한 간격으로 데이터 업데이트
+    }, 3000); // 5초마다 업데이트
+
+    return () => {
+      clearInterval(interval); // 컴포넌트가 언마운트될 때 인터벌 해제
+    };
   }, []);
 
   // const fetchBackendData = () => {
