@@ -79,8 +79,6 @@ const App = () => {
     fetchDominantColors();
   }, []);
 
-  console.log("asd", sensorColor.name);
-
   // const fetchBackendData = () => {
   //   axios
   //     .get("https://port-0-color-server-dcse2bligx5y07.sel4.cloudtype.app/api")
@@ -104,7 +102,6 @@ const App = () => {
         console.log("Failed to fetch dominant colors:", error);
       });
   };
-  console.log("sad", sensorColor.Beige.combination);
 
   return (
     <div className="parent-container">
@@ -127,6 +124,16 @@ const App = () => {
                   <div className="sensor-color">인식한 색상</div>
                   <div id="sensor-get-color" className={colorInfo.name}>
                     {colorInfo.name}
+                  </div>
+                  <div
+                    style={{
+                      color: "rgb(235, 53, 53)",
+                      marginTop: "7px",
+                      fontSize: "1.1rem",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    * 잘못된 색상을 인식했다면 다시 인식해주길 바랍니다.
                   </div>
                   <div className="combination-color">추천 색상</div>
                   <div className="recommend-color-list">
@@ -151,3 +158,4 @@ const App = () => {
 };
 
 export default App;
+// 스카이블루 바꿔야됨~!!!!!!
